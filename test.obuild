@@ -1,0 +1,12 @@
+Name: MemCAD
+Version: 1.0
+Authors: Xavier Rival et. al.
+License: CeCILL
+Synopsis: Static analyzer for shape analysis
+obuild-ver: 1
+
+Executable test
+  oflags: -warn-error PU -bin-annot
+  src-dir: .
+  main-is: test.ml
+#  build-deps: unix, parmap
